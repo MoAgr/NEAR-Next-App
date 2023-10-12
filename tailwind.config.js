@@ -7,12 +7,23 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        sans: ['Roboto', 'Arial', 'sans'],
+      },
+      colors: {
+        primary: '#3498db',
+        secondary: '#2ecc71',
+        // Add custom colors here
+      },
+      textColor: {
+        red: '#e74c3c',    // Custom red color
+        green: '#27ae60', // Custom green color
+        purple:'#702963' // Custom purple color
       },
     },
+  },
+  variants: {
+    extend: {},
   },
   plugins: [],
 }
